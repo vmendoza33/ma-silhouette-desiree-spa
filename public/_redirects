@@ -1,0 +1,4 @@
+# El sitio navega con rutas de hash (#/masajes, #/masajes/masaje-relajante, etc.),
+# por lo que Cloudflare Pages no necesita reescritura de rutas para que funcione.
+# Esta regla queda como red de seguridad para cualquier ruta que no sea un archivo real.
+/*  /index.html  200
